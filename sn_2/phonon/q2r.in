@@ -1,0 +1,5 @@
+&INPUT
+fildyn = 'stanene.dyn'
+zasr   = 'crystal'
+flfrc  = 'stanene.fc'
+/

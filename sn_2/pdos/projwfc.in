@@ -1,0 +1,4 @@
+&projwfc
+prefix  = 'stanene'
+outdir  = '../tmp'
+/

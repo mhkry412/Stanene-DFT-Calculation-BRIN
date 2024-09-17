@@ -1,0 +1,19 @@
+&inputpp
+outdir    = '../tmp/'
+prefix    = 'stanene'
+plot_num  = 0
+filplot = 'stanene.pp.rho'
+lsign = .false.
+kpoint = 1
+/
+
+&plot
+nfile = 1
+filepp(1) = 'stanene.pp.rho'
+iflag         = 3
+output_format = 6
+fileout       ='stanene.rho.cub'
+!nx            = 64
+!ny            = 64
+!nz            = 12
+/

@@ -1,0 +1,6 @@
+&BANDS 
+prefix = 'stanene',
+outdir = '../tmp/',
+filband = 'stanene.bands'
+/
+

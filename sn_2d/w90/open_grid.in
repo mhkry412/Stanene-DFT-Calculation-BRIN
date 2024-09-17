@@ -1,0 +1,5 @@
+&INPUTPP
+outdir        = '../tmp/'
+prefix        = 'stanene'
+verbosity     = 'high'
+/

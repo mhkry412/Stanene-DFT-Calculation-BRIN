@@ -1,0 +1,29 @@
+&control
+calculation = 'scf'
+prefix='stanene',
+pseudo_dir = '../pseudo/',
+outdir='../tmp/'
+/
+&system
+ibrav = 4,
+a = 4.683527522,
+c=20,
+nat = 2,
+ntyp = 1,
+ecutwfc = 60.0,
+ecutrho = 480
+occupations = 'smearing'
+smearing      = 'mp'
+degauss       = 0.020
+/
+&electrons
+mixing_beta = 0.7
+conv_thr = 1.0d-6
+/
+ATOMIC_SPECIES
+Sn 118.710 Sn_pbe_v1.uspp.F.UPF
+ATOMIC_POSITIONS (crystal)
+Sn            0.3333333330        0.6666666660        0.5000000000    
+Sn            0.6666666660        0.3333333330        0.4578734224
+K_POINTS {automatic}
+24 24 1 0 0 0

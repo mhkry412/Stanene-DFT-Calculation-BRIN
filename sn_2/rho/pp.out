@@ -1,0 +1,52 @@
+
+     Program POST-PROC v.6.7MaX starts on 25Jan2024 at 10:26:29 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     6 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       6
+
+     Reading xml data from directory:
+
+     ../tmp/stanene.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         431     214     60                75773    26776    3982
+     Max         432     215     61                75788    26799    3999
+     Sum        2587    1285    361               454685   160699   23931
+
+
+     negative rho (up, down):  8.414E-05 0.000E+00
+
+     Calling punch_plot, plot_num =   0
+     Writing data to file  stanene.pp.rho
+     Reading data from file  stanene.pp.rho
+
+     Writing data to be plotted to file stanene.rho.cub
+     Plot Type: 3D                     Output format: Gaussian cube
+
+     POST-PROC    :      3.17s CPU      3.37s WALL
+
+
+   This run was terminated on:  10:26:32  25Jan2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

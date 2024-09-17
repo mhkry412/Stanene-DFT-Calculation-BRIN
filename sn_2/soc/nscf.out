@@ -1,0 +1,213 @@
+
+     Program PWSCF v.7.2 starts on 23Mar2024 at 22:30: 6 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     6 processors
+
+     MPI processes distributed on     1 nodes
+     5082 MiB available memory on the printing compute node when the environment starts
+
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     Message from routine iosys:
+     london is obsolete, use "vdw_corr='grimme-d2'" instead
+
+     Atomic positions and unit cell read from directory:
+     ../tmp/stanene.save/
+     Atomic positions from file used, from input discarded
+
+     file Sn.rel-pbesol-dn-kjpaw_psl.0.2.UPF: wavefunction(s)  5P 5P 4D 4D renormalized
+
+     R & G space division:  proc/nbgrp/npool/nimage =       6
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         431     214     61                75909    26818    4015
+     Max         432     215     62                75924    26841    4025
+     Sum        2587    1285    367               455489   160939   24117
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            4
+     lattice parameter (alat)  =       8.8506  a.u.
+     unit-cell volume          =    2563.9136 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =        28.00
+     number of Kohn-Sham states=          100
+     kinetic-energy cutoff     =      60.0000  Ry
+     charge density cutoff     =     480.0000  Ry
+     Exchange-correlation= SLA  PW   PSX  PSC
+                           (   1   4  10   8   0   0   0)
+     Non magnetic calculation with spin-orbit
+
+
+     celldm(1)=   8.850584  celldm(2)=   0.000000  celldm(3)=   4.270286
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (  -0.500000   0.866025   0.000000 )  
+               a(3) = (   0.000000   0.000000   4.270286 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.577350 -0.000000 )  
+               b(2) = (  0.000000  1.154701  0.000000 )  
+               b(3) = (  0.000000 -0.000000  0.234176 )  
+
+
+     PseudoPot. # 1 for Sn read from file:
+     ../pseudo/Sn.rel-pbesol-dn-kjpaw_psl.0.2.UPF
+     MD5 check sum: dab48bced22424d3e4a00d850c44dbfd
+     Pseudo is Projector augmented-wave + core cor, Zval = 14.0
+     Generated using "atomic" code by A. Dal Corso  v.5.0.2 svn rev. 9415
+     Shape of augmentation charge: BESSEL
+     Using radial grid of 1243 points, 10 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   1
+                l(6) =   1
+                l(7) =   2
+                l(8) =   2
+                l(9) =   2
+               l(10) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Sn            14.00   118.71000     Sn( 1.00)
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Sn  tau(   1) = (   0.0000000   0.5773503   2.1351428  )
+         2           Sn  tau(   2) = (   0.5000000   0.2886751   1.9552503  )
+
+     -------------------------------------------------
+     Parameters for Dispersion (Grimme-D2) Correction:
+     -------------------------------------------------
+       atom      VdW radius       C_6     
+
+        Sn         3.409       1342.899
+
+     number of k points=   100  Gaussian smearing, width (Ry)=  0.0060
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:   455489 G-vectors     FFT dimensions: (  64,  64, 270)
+
+     Smooth grid:   160939 G-vectors     FFT dimensions: (  45,  45, 192)
+
+     Estimated max dynamical RAM per process >     777.25 MB
+
+     Estimated total dynamical RAM >       4.55 GB
+
+     Check: negative core charge=   -0.000002
+
+     The potential is recalculated from file :
+     ../tmp/stanene.save/charge-density
+
+
+     negative rho (up, down):  1.719E-03 0.000E+00
+     Starting wfcs are   36 randomized atomic wfcs +   64 random wfcs
+     Checking if some PAW data can be deallocated... 
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  2 eigenvalues not converged
+
+     ethr =  3.57E-08,  avg # of iterations = 63.2
+
+     total cpu time spent up to now is    12177.3 secs
+
+     End of band structure calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     the Fermi energy is    -2.1007 ev
+     (compare with:    -2.1725 eV, computed in scf)
+
+     Writing all to output data dir ../tmp/stanene.save/
+
+     init_run     :      6.59s CPU     10.56s WALL (       1 calls)
+     electrons    :  10288.07s CPU  12166.53s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     potinit      :      0.54s CPU      0.55s WALL (       1 calls)
+     hinit0       :      0.67s CPU      0.67s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :  10288.03s CPU  12166.52s WALL (       1 calls)
+     v_of_rho     :      0.15s CPU      0.15s WALL (       1 calls)
+     newd         :      5.14s CPU      9.05s WALL (       1 calls)
+     PAW_pot      :      0.12s CPU      0.12s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.60s CPU      0.37s WALL (     100 calls)
+     init_us_2:cp :      0.60s CPU      0.37s WALL (     100 calls)
+     cegterg      :  10054.31s CPU  11886.84s WALL (     356 calls)
+
+     Called by *egterg:
+     cdiaghg      :   2435.46s CPU   1908.05s WALL (    6416 calls)
+     h_psi        :   3857.94s CPU   4799.38s WALL (    6772 calls)
+     s_psi        :    120.83s CPU    176.74s WALL (    6772 calls)
+     g_psi        :     10.76s CPU      8.64s WALL (    6316 calls)
+
+     Called by h_psi:
+     h_psi:calbec :   1143.57s CPU   1876.95s WALL (    6772 calls)
+     vloc_psi     :   2487.77s CPU   2487.34s WALL (    6772 calls)
+     add_vuspsi   :    213.75s CPU    420.84s WALL (    6772 calls)
+
+     General routines
+     calbec       :   1143.48s CPU   1875.92s WALL (    6772 calls)
+     fft          :      0.38s CPU      0.39s WALL (      19 calls)
+     ffts         :      0.17s CPU      0.17s WALL (       4 calls)
+     fftw         :   1757.69s CPU   1736.59s WALL ( 1105244 calls)
+     interpolate  :      0.22s CPU      0.22s WALL (       4 calls)
+     davcio       :      1.54s CPU     42.13s WALL (     200 calls)
+
+     Parallel routines
+
+     PWSCF        :      2h51m CPU      3h24m WALL
+
+
+   This run was terminated on:   1:54:25  24Mar2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

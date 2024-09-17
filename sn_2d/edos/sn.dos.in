@@ -1,0 +1,8 @@
+ &DOS
+   prefix          = 'stanene' 
+   outdir          = 'tmp' 
+   fildos          = 'sn_dos' 
+   bz_sum          = 'tetrahedra' 
+   DeltaE          = 0.01 
+ /
+

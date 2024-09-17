@@ -1,0 +1,5 @@
+&DOS
+prefix='stanene',
+outdir='../tmp/',
+fildos='sn_edos.dos',
+/

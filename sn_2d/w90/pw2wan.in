@@ -1,0 +1,6 @@
+&INPUTPP
+outdir    = '../tmp/'
+prefix    = 'stanene_open'
+seedname  = 'stanene'
+write_unk = .true.
+/

@@ -1,0 +1,10 @@
+&projwfc
+    outdir       = '../tmp/'
+    prefix       = 'stanene'
+    ngauss       = 1
+    degauss      = 0.036748
+    DeltaE       = 0.005
+    kresolveddos = .true.
+    filpdos      = 'stanene.k'
+/
+

@@ -1,0 +1,12 @@
+phonon calc.
+&INPUTPH
+outdir = '../tmp/'
+prefix = 'stanene'
+tr2_ph = 1d-14
+ldisp = .true.
+nq1 = 12
+nq2 = 12
+nq3 = 1
+fildyn = 'stanene.dyn'
+/
+

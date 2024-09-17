@@ -1,0 +1,52 @@
+
+     Program POST-PROC v.6.7MaX starts on 20Jan2024 at 23: 3:32 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     6 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       6
+
+     Reading xml data from directory:
+
+     ../tmp/stanene.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         142     142     42                14559    14559    2226
+     Max         144     144     43                14566    14566    2235
+     Sum         859     859    253                87375    87375   13377
+
+
+     Check: negative core charge=   -0.000001
+
+     negative rho (up, down):  1.418E-02 0.000E+00
+
+     Calling punch_plot, plot_num =   0
+     Writing data to file  tmp.pp
+     Message from routine chdens:
+     namelist plot not found or invalid, exiting
+
+     POST-PROC    :      0.50s CPU      0.51s WALL
+
+
+   This run was terminated on:  23: 3:32  20Jan2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
